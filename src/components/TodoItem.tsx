@@ -16,7 +16,9 @@ const TodoItem: FC<Props> = ({ text, done, onToggle, onRemove }) => (
 		</b>
 		<button
 			onClick={onRemove}
-			style={{ all: "unset", marginLeft: "0.5rem" }}></button>
+			style={{ all: "unset", marginLeft: "0.5rem" }}>
+			x
+		</button>
 	</li>
 );
 
